@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2? family= Kanit:ital,wght@1,500 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(https://www.qualityweb360.com/wp-content/uploads/2021/02/gestio%CC%81n-de-calidad-1-scaled.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo{
+    align-items: center;
+    justify-content: center;
+    margin-left: 12%;
+}
+.logo {
+    background: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+}
+
+header a:hover {
+    color: blue;
+}
+
+header.abajo {
+    background: #fff;
+    padding: 15px 20px;
+}
+
+header .logo {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
+    text-align: center;
+}
+
+header.abajo .logo,
+header.abajo ul li a {
+    color: #ffffff;
+}
+.botones{
+margin-right: 20%;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+.btn {
+    display: flex;
+    margin: 10px;
+    margin-top: 10%;
+    cursor: pointer;
+    border-radius: 13%;
+    background: black;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.btn:hover {
+    background-color: rgb(26, 45, 212);
+    transition: 0.5s;
+    color: #000000;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.accordion {
+    max-width: 530px;
+    width: 100%;
+    background: #fff;
+    margin: 0px 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.accordion .accordion-content {
+    margin: 10px 0;
+    border-radius: 4px;
+    background: #fff7f0;
+    border: 1px solid #ffd6b3;
+    overflow: hidden;
+}
+
+.accordion-content:nth-child(2) {
+    background-color: #f0faff;
+    border-color: #cceeff;
+}
+
+.accordion-content:nth-child(3) {
+    background-color: #f0faf3;
+    border-color: #ffccd6;
+}
+
+.accordion-content:nth-child(4) {
+    background-color: #f0f0ff;
+    border-color: #ccccff;
+}
+
+.accordion-content .open {
+    padding-bottom: 10px;
+}
+
+.accordion-content header {
+    display: flex;
+    min-height: 50px;
+    background-color: rgb(0, 132, 255);
+    padding: 0 15px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.2s linear;
+}
+
+.accordion-content .open header {
+    min-height: 35px;
+}
+
+.accordion-content header .title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'https://fonts.googleapis.com/css2? family= Kanit:ital,wght@1,500 & display=swap';
+}
+
+.accordion-content header i {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.accordion-content .description {
+    height: 0;
+    font-size: 17px;
+    color: #000000;
+    font-weight: 400;
+    padding: 0 15px;
+    transition: all 0.2s linear;
+    text-align: center;
+}
+
+.imagenes{
+    width: 100%;  
+}

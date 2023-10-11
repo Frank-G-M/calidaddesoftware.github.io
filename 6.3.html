@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calidad de software</title>
+    <link rel="stylesheet" href="ensayo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<header>
+    <a href="#" class="logo">CALIDAD DE SOFTWARE</a>
+</header>
+
+<body>
+    <div class="todo">
+        <div class="botones">
+            <button class="btn"><a href="D:\presentacion\ADSO\6.1.html">6.1<br>Diseño, Codificación y
+                    Pruebas</a></button>
+            <button class="btn"><a href="D:\presentacion\ADSO\6.2.html">6.2<br>Pruebas de software</a></button>
+            <button class="btn"><a href="D:\presentacion\ADSO\6.3.html">6.3<br>Integración continua</a></button>
+            <button class="btn"><a href="D:\presentacion\ADSO\6.4.html">6.4<br>Revisiones de diseño y
+                    código</a></button>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-content">
+                <header>
+                    <span class="title"><b>6.3.1 | Forma de trabajo.</b></span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+
+                <p class="description"><i>Proponiendo una mejora de calidad de nuestros diseños incorporando a las pruebas
+                    como criterio y sistematizamos dichas pruebas con la herramienta xUnit.</i>
+                    <img class="imagenes"
+                        src="https://cloud.google.com/static/solutions/continuous-integration/images/hero-banner.png?hl=es-419">
+                </p>
+            </div>
+            <div class="accordion-content">
+                <header>
+                    <span class="title"><b>6.3.1.1 | Pasos</b></span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+
+                <p class="description"><i><b>1</b> Un desarrollador realiza cambios sobre el repositorio(almacenamiento
+                    digital para hacer cambios en le código de un aplicacion) mientras que el administrador de
+                    integracion continua lo consulta por cambios con una frecuencia determinada<br>
+                    <b>2</b> Después del cambio el administrador de integración continua detecta el cambio, toma del
+                    re-positorio las últimas versiones y ejecuta los scripts que integran todo el soft-ware (compila y
+                    linkea), ejecuta los tests, toma métricas y elabora informes.<br>
+                    <b>3</b> El administrador de Integración Continua informa por mail a los miembros del grupo de
+                    desarrollo de los resultados del build.<br>
+                    <b>4</b> El administrador de IC continua consultando al repositorio (SCM) con la Frecuencia
+                    determinada.</i>
+                    <img class="imagenes" src="https://inlab.fib.upc.edu/sites/default/files/styles/large/public/field/image/iteraciones.png">
+                </p>
+            </div>
+            <div class="accordion-content">
+                <header>
+                    <span class="title"><b>6.3.1.2 | Principios</b></span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+
+                <p class="description"><i>Repositorio : corrija errores que generan el test de forma imediata<br>
+                    Construcción de binarios: ejecute comandos simples, utilice una copia privada de base de datos<br>
+                    Pruebas revisiones: Ejecute los tests en momentos diferentes, Controle el cubrimiento de los tests,
+                    Automatice y categorice los tests<br>
+                    Integración continua: Utilice un servidor independiente para la integración continua, Publique
+                    resultados de la integración en forma continua.<br>
+                    Informes: Construya informes y publíquelos a los desarrolladores y a QA Promueva la lectura de los
+                    informes<br></i>
+                    <img  class="imagenes"  src="https://camilorada.files.wordpress.com/2014/06/ci4.png?w=640" alt="">
+                </p>
+            </div>
+            <div class="accordion-content">
+                <header>
+                    <span class="title"><b>6.3.2 | Infraestructura</b></span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+
+                <p class="description"><i>Repositorio : corrija errores que generan el test de forma imediata
+                    Construcción de binarios: ejecute comandos simples, utilice una copia privada de base de datos
+                    Pruebas revisiones: Ejecute los tests en momentos diferentes, Controle el cubrimiento de los tests,
+                    Automatice y categorice los tests
+                    Integración continua: Utilice un servidor independiente para la integración continua, Publique
+                    resultados de la integración en forma continua.
+                    Informes: Construya informes y publíquelos a los desarrolladores y a QA Promueva la lectura de los
+                    informes</i>
+                    <img src="data:image/jpeg;base64,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" alt="">
+                    
+                </p>
+            </div>
+            <div class="accordion-content">
+                <header>
+                    <span class="title"><b>6.3.3 | Resultados</b></span>
+                    <i class="fa-solid fa-plus"></i>
+                </header>
+
+                <p class="description"><i>Una de los mejores sitios que ofrecen la posibilidad de ver resultados son Maven
+                    y Cruise Control de generar un sitio para el proyecto donde se publican los informes con resultados
+                    y métricas.
+                    Este sitio es el punto de referencia de los involucrados en el proyecto así comopara los miembros
+                    del área de calidad de la organización, ya que ellos encontrarán información de gran utilizadad para
+                    realizar su trabajo con relación al proyecto.</i>
+                    <img class="imagenes" src="https://www.mtp.es/wp-content/uploads/2018/05/metricas.jpg">
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="ensayo.js"></script>
+
+</html>
